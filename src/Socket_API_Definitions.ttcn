@@ -13,7 +13,7 @@
 ******************************************************************************/
 //
 //  File:               Socket_API_Definitions.ttcn
-//  Rev:                R5A
+//  Rev:                R6A
 //  Prodnr:             CNL 113 686
 
 
@@ -154,7 +154,8 @@ module Socket_API_Definitions {
      SctpRemoteError sctpRemoteError,
      SctpShutDownEvent sctpShutDownEvent,
      SctpPartialDeliveryEvent sctpPartialDeliveryEvent,
-     SctpAdaptationIndication sctpAdaptationIndication
+     SctpAdaptationIndication sctpAdaptationIndication,
+     SctpSenderDryEvent sctpSenderDryEvent
    }
 
    type union PortEvent {
@@ -204,6 +205,10 @@ module Socket_API_Definitions {
    }
  
    type record SctpAdaptationIndication {
+     integer clientId
+   } 
+    
+   type record SctpSenderDryEvent {
      integer clientId
    } 
    /* SCTP type events end*/ 
