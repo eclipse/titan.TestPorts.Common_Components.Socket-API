@@ -1,0 +1,73 @@
+---
+Author: Eduárd Czimbalmos
+Version: 1551-CNL 113 686, Rev. A
+Date: 2014-05-23
+
+---
+= Socket API for TTCN-3  Toolset with TITAN
+:author: Eduárd Czimbalmos
+:revnumber: 1551-CNL 113 686, Rev. A
+:revdate: 2014-05-23
+:toc:
+
+= Functionality
+
+The Socket API contains type and constant definitions in a formalized way, using the standard specification language TTCN-3. This allows the usage of these definitions in test ports, protocol modules, libraries and applications.
+
+== Implemented Protocols
+
+None.
+
+=== Modified and Non-Implemented Protocol Elements
+
+None.
+
+=== Ericsson-Specific Changes
+
+None.
+
+== Backward Incompatibilities
+
+None.
+
+== System Requirements
+
+Socket API is a set of TTCN-3 source code files that can be used as part of TTCN-3 test suites only. Hence, protocol modules alone do not put specific requirements on the system used. However, in order to compile and execute a TTCN-3 test suite using the set of protocol modules the following system requirements must be satisfied:
+
+* Titan TTCN-3 Test Executor version CRL 113 200 R7A (1.7.pl0) or higher installed. For Installation Guide see <<_2, [2]>>.
+
+NOTE: This version of the test port is not compatible with Titan releases earlier than CRL 113 200 R7A.
+
+= Usage
+
+== Installation
+
+Socket API can be used in developing TTCN-3 test suites using any text editor; however, to make the work more efficient a TTCN3enabled text editor is recommended (for example `nedit`, `xemacs`). Since the Socket API is used as a part of a TTCN-3 test suite, this requires TTCN-3 Test Executor be installed before the module can be compiled and executed together with other parts of the test suite. For more details on the installation of TTCN-3 Test Executor see the relevant section of <<_2, [2]>>.
+
+== Configuration
+
+None.
+
+== Examples
+
+None.
+
+= Interface Description
+
+None.
+
+= Terminology
+
+== Abbreviations
+
+TTCN-3:: Testing and Test Control Notation version 3
+
+= References
+
+[[_1]]
+[1] ETSI ES 201 873-1 v4.5.1 (2013-04) +
+The Testing and Test Control Notation version 3. Part 1: Core Language
+
+[[_2]]
+[2] User Guide for TITAN TTCN-3 Test Executor
+
