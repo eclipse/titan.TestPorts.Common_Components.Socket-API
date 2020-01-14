@@ -1,0 +1,9 @@
+= Socket API for TTCN-3 Toolset with TITAN
+:author: Gábor Szalai
+:toc:
+
+= Changes
+
+== R6B
+
+Added ERROR_LENGTH error code

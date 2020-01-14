@@ -13,7 +13,6 @@
 ******************************************************************************/
 //
 //  File:               Socket_API_Definitions.ttcn
-//  Rev:                R6A
 //  Prodnr:             CNL 113 686
 
 
@@ -116,7 +115,8 @@ module Socket_API_Definitions {
     ERROR_HOSTNAME,
     ERROR_INVALID_CONNECTION,
     ERROR_TEMPORARILY_UNAVAILABLE,
-    ERROR_AVAILABLE
+    ERROR_AVAILABLE,
+    ERROR_LENGTH
   }
 
   type record Result {
